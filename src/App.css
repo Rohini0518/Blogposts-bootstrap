@@ -1,0 +1,64 @@
+#root {
+  min-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: "Faculty Glyphic", sans-serif;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgb(246, 241, 241);
+  padding: 8px;
+  background-image: linear-gradient(white, rgb(239, 234, 240));
+  border-radius: 4px;
+}
+
+.sidemenu-container {
+  width: 250px;
+  text-align: start;
+  border: 1.5px solid rgb(246, 241, 241);
+  height: 500px;
+}
+.side-heading {
+  font-weight: 700;
+  margin: 10px;
+}
+.sidelist-item {
+  list-style: none;
+  padding: 5px;
+}
+.blogpost-container {
+  width: 650px;
+  margin-bottom: 20px;
+}
+.span-gap {
+  margin: 10px;
+}
+.react-icon {
+  width: 60px;
+}
+
+.profile-details {
+  display: flex;
+  gap: 10px;
+  text-align: start;
+  border: 1px solid white;
+}
+.latest-container {
+  width: 250px;
+  text-align: start;
+}
+
+.blog-section {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+.text-bold {
+  font-weight: 900;
+}
